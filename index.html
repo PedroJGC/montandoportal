@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no"/>
+        <title>Pagina teste</title>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="topo">
+            <div class="topoint">
+                <div class="topoleft">
+                    <ul>
+                        <li><a href="./" class="ativo">Home</a></li>
+                        <li><a href="quem-somos">Quem somos</a></li>
+                        <li><a href="anuncie-aqui">Anuncie aqui</a></li>
+                        <li><a href="contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="toporight">
+                    <label><input type="image" src="assets/images/lupa.png" border="0" width="26" height="26"/></label>
+                    <label><input type="text" name="busca" class="topobusca" placeholder="Buscar..."/></label>
+                    <a href=""><img src="assets/images/youtube.png" border="0" width="26" height="26"></a>
+                    <a href=""><img src="assets/images/twitter.png" border="0" width="26" height="26"></a>
+                    <a href=""><img src="assets/images/facebook.png" border="0" width="26" height="26"></a>
+                    <a href=""><img src="assets/images/googleplus.png" border="0" width="26" height="26"></a>
+                    <a href=""><img src="assets/images/rss.png" border="0" width="26" height="26"></a>
+                </div>
+            </div>
+        </div>
+        <div class="topo2">
+            <div class="topo2int">
+                <div class="logo">
+                    <img src="assets/images/logo.png" border="0" width="230">
+                </div>
+                <div class="banner"></div>
+            </div>
+            <div class="menu">
+                <div class="menuint">
+                    <img src="assets/images/menu.png" class="menumobile" border="0" width="40" height="40" onclick="toggleMenu()"/>
+                    <ul id="menu">
+                        <li><a href="./" class="ativo">Home</a></li>
+                        <li><a href="./">Econômia</a></li>
+                        <!--Menu Dropdown-->
+                        <li>
+                            <a href="./">Entretenimento</a>
+                            <img src="assets/images/arrowdown.jpg" border="0" width="10"/>
+                            <div class="submenu">
+                                <a href="./"><div class="submenuitem">Sub menu 1</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 2</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 3</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 4</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 5</div></a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./">Esporte</a>
+                            <img src="assets/images/arrowdown.jpg" border="0" width="10"/>
+                            <div class="submenu">
+                                <a href="./"><div class="submenuitem">Sub menu 1</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 2</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 3</div></a>
+                            </div>
+                        </li>
+                        <li><a href="./">Geral</a></li>
+                        <li>
+                            <a href="./">Notícias</a>
+                            <img src="assets/images/arrowdown.jpg" border="0" width="10"/>
+                            <div class="submenu">
+                                <a href="./"><div class="submenuitem">Sub menu 1</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 2</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 3</div></a>
+                                <a href="./"><div class="submenuitem">Sub menu 4</div></a>
+                            </div>
+                        </li>
+                        <li><a href="./">Polícia</a></li>
+                        <li><a href="./">Videos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="ultimasnoticias">
+            <div class="ultimasnoticiasint">
+                <div class="ultnoticiasarea">
+                    <div class="ultnoticiastitulo">ÚLTIMAS NOTÍCIAS</div>
+                    <div class="ultnoticiasnoticia">Roubaram a galinha do seu José! E agora José?</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="containerint">
+                <div class="lefttside">
+                    <div class="slideshow" id="slideshow">
+                        <div class="slidebolinhas">
+                            <div class="bolinha" onclick="mudarSlide(0)"></div>
+                            <div class="bolinha" onclick="mudarSlide(1)"></div>
+                            <div class="bolinha" onclick="mudarSlide(2)"></div>
+                            <div class="bolinha" onclick="mudarSlide(3)"></div>
+                        </div>
+                        <div class="slideshowarea">
+                            <a href="https://www.google.com.br">
+                                <div class="slide" style="background-image: url('https://einerd-static-petaxxoninformat.netdna-ssl.com/wp-content/uploads/2016/12/star-wars-.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">Teste montando um portal 01</div>
+                                        <div class="slideinfo_subtitulo">Subtitulo do meu portal</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="slide" style="background-image: url('https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/630/354/75/wdpromedia.disney.go.com/media/wdpro-assets/parks-and-tickets/tours-and-experiences/star-wars-guided-tour/star-wars-guided-tour-00.jpg?21102016062907')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Teste montando um portal 02</div>
+                                    <div class="slideinfo_subtitulo">Subtitulo do meu portal</div>
+                                </div>
+                            </div>
+                            <div class="slide" style="background-image: url('https://media.contentapi.ea.com/content/dam/eacom/star-wars/SWBF2-1x1-Tile.png.adapt.crop1x1.767w.png')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Teste montando um portal 03</div>
+                                    <div class="slideinfo_subtitulo">Subtitulo do meu portal</div>
+                                </div>
+                            </div>
+                            <div class="slide" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhx_X97Nczko_g90aEeZOyFQCaKYT-RBpjtSBcw8S0sXkjM-BMfg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Teste montando um portal 04</div>
+                                    <div class="slideinfo_subtitulo">Subtitulo do meu portal</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">NOTÍCIAS</div>
+                        <div class="widget_conteudo">
+                            <div class="noticiaarea1">
+                                <div class="noticiaitem noticiabig">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Alguma notícia qualquer, para ser inserida aqui! Alguma notícia qualquer!</div>
+                                    <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                            </div>
+                            <div class="noticiaarea2">
+                                <a href="https://www.google.com.br">
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                        <div class="noticiatitulo">Alguma notícia qualquer</div>
+                                        <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                                </a>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Alguma notícia qualquer</div>
+                                    <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Alguma notícia qualquer</div>
+                                    <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Alguma notícia qualquer</div>
+                                    <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">ESPORTES</div>
+                        <div class="widget_conteudo">
+                            <div class="noticiaarea1">
+                                <div class="noticiaitem noticiabig">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Alguma notícia qualquer, para ser inserida aqui! Alguma notícia qualquer!</div>
+                                    <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                            </div>
+                            <div class="noticiaarea2">
+                                <a href="https://www.google.com.br">
+                                    <div class="noticiaitem">
+                                        <div class="noticiaimg">
+                                            <img src="" border="0" width="80" height="80"/>
+                                        </div>
+                                        <div class="noticiatitulo">Alguma notícia qualquer</div>
+                                        <div class="noticiainfo">500 comentarios.</div>
+                                    </div>
+                                </a>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Alguma notícia qualquer</div>
+                                    <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Alguma notícia qualquer</div>
+                                    <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Alguma notícia qualquer</div>
+                                    <div class="noticiainfo">500 comentarios.</div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightside">
+                    <div class="widget">
+                        <div class="widget_titulo">SOCIAL</div>
+                        <div class="widget_conteudo">
+                            <a href=""><img src="assets/images/youtube.png" border="0" width="26" height="26"></a>
+                            <a href=""><img src="assets/images/twitter.png" border="0" width="26" height="26"></a>
+                            <a href=""><img src="assets/images/facebook.png" border="0" width="26" height="26"></a>
+                            <a href=""><img src="assets/images/googleplus.png" border="0" width="26" height="26"></a>
+                            <a href=""><img src="assets/images/rss.png" border="0" width="26" height="26"></a>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div>
+                        <div class="widget_conteudo">
+                            <div class="noticia_item">
+                               <a href="./">Denunciado por intermediar propina para ex-diretores da Petrobras,
+                                   Raul Schmidt deve ser extraditado para o Brasil.</a>
+                            </div>
+                            <div class="noticia_item">
+                                <a href="./">Denunciado por intermediar propina para ex-diretores da Petrobras,
+                                    Raul Schmidt deve ser extraditado para o Brasil.</a>
+                            </div>
+                            <div class="noticia_item">
+                                <a href="./">Denunciado por intermediar propina para ex-diretores da Petrobras,
+                                    Raul Schmidt deve ser extraditado para o Brasil.</a>
+                            </div>
+                            <div class="noticia_item">
+                                <a href="./">Denunciado por intermediar propina para ex-diretores da Petrobras,
+                                    Raul Schmidt deve ser extraditado para o Brasil.</a>
+                            </div>
+                            <div class="noticia_item">
+                                <a href="./">Denunciado por intermediar propina para ex-diretores da Petrobras,
+                                    Raul Schmidt deve ser extraditado para o Brasil.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">PUBLICIDADE</div>
+                        <div class="widget_conteudo">
+                            <img src="assets/images/banner.jpg" border="0" width="275"/>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">ENCOTRE-NOS NO FACEBOOK</div>
+                        <div class="widget_conteudo">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcaferati.me%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=214153842465130" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
